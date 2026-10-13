@@ -89,8 +89,11 @@ Fill this in as you go. Bullet points are fine — be specific, not long.
 ## Defect 4: CI pipeline fails
 
 ### Symptom / error output
+### Run ./scripts/run-tests.sh
+### /home/runner/work/_temp/0775c08b-9472-4408-a070-499c319b8125.sh: line 1: ./scripts/run-tests.sh: Permission denied
 
 ### How I diagnosed it
+### commited and pushed my changes from last tasks, went to the actions tab and watched over the logs unde Execute test suite job. 
 
 ### Root cause
 
