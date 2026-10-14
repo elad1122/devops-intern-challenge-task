@@ -117,4 +117,4 @@ in docker-compose.yml -> in the proxy service ports , changed to 8081:8080 host-
 
 ## Anything you would do differently with more time
 
-If I had more time, i would improve the ci pipeline of this project by eliminating duplicate PR trigger runs with concurrency: cancel-in-progress, tightening job timeouts from 20 to 5 minutes, and caching Docker layers to speed up integration test feedback loops.
+Not Related to the task itself but If I had more time, i would try to improve the ci pipeline of this project by eliminating duplicate PR trigger runs, tightening job timeouts from 20 to 5 minutes, and caching Docker layers to speed up integration test feedback loops.
