@@ -19,7 +19,7 @@ services:
       context: ./proxy
     # Published for local debugging: curl http://localhost:8081/nginx-health
     ports:
-      - "8081:80"
+     - "8081:80"
     depends_on:
       backend:
         condition: service_healthy
